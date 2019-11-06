@@ -18,8 +18,8 @@ meanstd = {
 
 class CIFAR10(object):
     def __init__(self, dataFolder=None, pin_memory=False):
-
-        self.dataFolder = dataFolder if dataFolder is not None else os.path.join(datasets.BASE_DATA_FOLDER, 'CIFAR10')
+        self.dataFolder='D:/Picdataset/CIFAR10'
+        # self.dataFolder = dataFolder if dataFolder is not None else os.path.join(datasets.BASE_DATA_FOLDER, 'CIFAR10')
         self.pin_memory = pin_memory
         self.meanStd = meanstd
 
